@@ -47,7 +47,7 @@ svt-av1 options...
 
 1920 -h 1080 --fps-num 60 --fps-denom 1 -b "I:\VD\FIX\001.av1" -i stdin --progress 2
 
-Svt[info]: -------------------------------------------
+Svt[info]: ----------------------------------------
 
 Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.2.0-107-g8983dbe5f
 
@@ -65,7 +65,7 @@ Svt[info]: [asm level on system : up to avx2]
 
 Svt[info]: [asm level selected : up to avx2]
 
-Svt[info]: -------------------------------------------
+Svt[info]: -----------------------------------------
 
 Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
 
@@ -93,7 +93,7 @@ Encoding: [33m14364/14364 Frames[0m @ [32m24.35[0m fps | [35m3754.84 kb/s[
 
 [38;5;248m[112.36 MB][0m | Time: [36m0:09:50[0m [38;5;248m[-0:00:00][0m 
 
-SUMMARY -----------------------------------------------------------------
+SUMMARY -----------------------------------------------
 
 Total Frames		Frame Rate		Byte Count		Bitrate
 
