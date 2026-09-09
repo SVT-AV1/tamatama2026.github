@@ -9,8 +9,9 @@ Zen3に強く最適化をかけています。
 Zen5を使用してもAVX512は動作しません。
 
 
+------------------------
 エンコードオプション
-
+------------------------
 --preset 4 --input-depth 10 --crf 32 --enable-mfmv 1 --film-grain 10 --scd 1 --tile-rows 2 --tile-columns 2
 
 出力フレームレート 60fps
