@@ -1,0 +1,121 @@
+ --preset 4 --crf 32 --enable-mfmv 1 --film-grain 10 --tile-rows 2 --tile-columns 2
+
+入力fps 59.94fps/出力fps 29.97fps
+
+入力色域8bit/出力色域8bit
+
+入力ソース test001.mpg /mpeg2 /59.94fps /2分5秒 /8bit
+
+
+rigaya氏ビルド版107
+
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] ------------------------------------------------------------------------------------------------------------------------------
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] [I:\VD\FIX\0000.mkv]
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] ------------------------------------------------------------------------------------------------------------------------------
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] svtAV1guiEx 2.15 / Windows 11 x64 (26200) / AMD Ryzen 5 5600 6-Core Processor [4.67GHz] (6C/12T)
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] video: 0:02:05.191 30000/1001(29.970) fps
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] audio: 0:02:05.191 2ch 44.1kHz 5520955 samples
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2]  svt-av1として "C:\ProgramData\aviutl2\Plugin\exe_files\SvtAv1EncApp_4.2.0-107_x64_clang.exe" を使用します。
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2]  opus (ffmpeg)として "C:\ProgramData\aviutl2\Plugin\exe_files\ffmpeg.exe" を使用します。
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2]  mkvmergeとして "C:\ProgramData\aviutl2\Plugin\exe_files\mkvmerge.exe" を使用します。
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] converting YUY2 -> yuv420p, using AVX AVX2
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] svt-av1 options...
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2]   --preset 4 --crf 32 --enable-mfmv 1 --film-grain 10 --scd 1 --tile-rows 2 --tile-columns 2  -n 3752 -w 1920 -h 1080
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] --fps-num 30000 --fps-denom 1001 -b "I:\VD\FIX\0000.av1" -i stdin --progress 2
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: -------------------------------------------
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.2.0-107-g8983dbe5f
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [build]  :	Clang 22.1.8 (https://github.com/msys2/MINGW-packages 6e4e79c2f86eeb534e324e583f2057dc9fd5ecab)	 64 bit
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: LIB Build date: Sep  1 2026 12:18:07
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: -------------------------------------------
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[warn]: SVT-AV1 has an integrated mode decision mechanism to handle scene changes and will not insert a key frame at scene changes
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[warn]: If you are using tiles with the intent of increasing the decoder speed, please also consider using --fast-decode 1
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2]            or 2, especially if the intended decoder is running with limited multi-threading capabilities.
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: Level of Parallelism: 5
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: Number of PPCS 140
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: [asm level on system : up to avx2]
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: [asm level selected : up to avx2]
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: -------------------------------------------
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 1920 / 1080 / 30000 / 1001
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: preset / tune / pred struct 					: 4 / PSNR / random access
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 161 / 32 / key frame
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 32.00 
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: film grain synth / denoising / level / adaptive blocksize 	: 1 / 0 / 10 / True
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: QP scale compress strength 					: 0
+[09/10 16:27:04] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: -------------------------------------------
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] Encoding: [33m3752/3752 Frames[0m @ [32m25.80[0m fps | [35m1432.24 kb/s[0m | Size: [31m22.41 MB[0m [38;5;248m[22.41
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] MB][0m | Time: [36m0:02:25[0m [38;5;248m[-0:00:00][0m 
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] SUMMARY -----------------------------------------------------------------
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] Total Frames		Frame Rate		Byte Count		Bitrate
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2]         3752		29.97 fps		  22413141		1432.24 kbps
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] 
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] 
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] Average Speed:		25.802 fps
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] Total Encoding Time:	145412 ms
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] Total Execution Time:	145524 ms
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] Average Latency:	5327 ms
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] Max Latency:		8326 ms
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] CPU使用率: Aviutl: 4.83% / svt-av1: 87.21%
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] Aviutl 平均フレーム取得時間: 14.734 ms
+[09/10 16:29:30] [INFO] [Plugin::svtAV1guiEx.auo2] svt-av1エンコード時間 : 0時間 2分25.8秒
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+N7@8_22(LTO+PGO)
+
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] ------------------------------------------------------------------------------------------------------------------------------
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] [I:\VD\FIX\0000.mkv]
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] ------------------------------------------------------------------------------------------------------------------------------
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] svtAV1guiEx 2.15 / Windows 11 x64 (26200) / AMD Ryzen 5 5600 6-Core Processor [4.67GHz] (6C/12T)
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] video: 0:02:05.191 30000/1001(29.970) fps
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] audio: 0:02:05.191 2ch 44.1kHz 5520955 samples
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2]  svt-av1として "C:\ProgramData\aviutl2\Plugin\exe_files\SvtAv1EncApp_N7@8_22_.exe" を使用します。
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2]  opus (ffmpeg)として "C:\ProgramData\aviutl2\Plugin\exe_files\ffmpeg.exe" を使用します。
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2]  mkvmergeとして "C:\ProgramData\aviutl2\Plugin\exe_files\mkvmerge.exe" を使用します。
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] converting YUY2 -> yuv420p, using AVX AVX2
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] svt-av1 options...
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2]   --preset 4 --crf 32 --enable-mfmv 1 --film-grain 10 --scd 1 --tile-rows 2 --tile-columns 2  -n 3752 -w 1920 -h 1080
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] --fps-num 30000 --fps-denom 1001 -b "I:\VD\FIX\0000.av1" -i stdin --progress 2
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: -------------------------------------------
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.2.0-120-gc6cb4d0c2
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [build]  :	Clang 22.1.8 (https://github.com/msys2/MINGW-packages 6e4e79c2f86eeb534e324e583f2057dc9fd5ecab)	 64 bit
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: LIB Build date: Sep 10 2026 08:49:02
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: -------------------------------------------
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[warn]: SVT-AV1 has an integrated mode decision mechanism to handle scene changes and will not insert a key frame at scene changes
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[warn]: If you are using tiles with the intent of increasing the decoder speed, please also consider using --fast-decode 1
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2]            or 2, especially if the intended decoder is running with limited multi-threading capabilities.
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: Level of Parallelism: 5
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: Number of PPCS 140
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: [asm level on system : up to avx2]
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: [asm level selected : up to avx2]
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: -------------------------------------------
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 1920 / 1080 / 30000 / 1001
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: preset / tune / pred struct 					: 4 / PSNR / random access
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 161 / 32 / key frame
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 32.00 
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: film grain synth / denoising / level / adaptive blocksize 	: 1 / 0 / 10 / True
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: SVT [config]: QP scale compress strength 					: 0
+[09/10 16:23:00] [INFO] [Plugin::svtAV1guiEx.auo2] Svt[info]: -------------------------------------------
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] Encoding: [33m3752/3752 Frames[0m @ [32m27.14[0m fps | [35m1430.98 kb/s[0m | Size: [31m22.39 MB[0m [38;5;248m[22.39
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] MB][0m | Time: [36m0:02:18[0m [38;5;248m[-0:00:00][0m 
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] SUMMARY -----------------------------------------------------------------
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] Total Frames		Frame Rate		Byte Count		Bitrate
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2]         3752		29.97 fps		  22393326		1430.98 kbps
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] 
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] 
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] Average Speed:		27.143 fps
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] Total Encoding Time:	138228 ms
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] Total Execution Time:	138336 ms
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] Average Latency:	5045 ms
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] Max Latency:		7976 ms
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] CPU使用率: Aviutl: 5.30% / svt-av1: 86.23%
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] Aviutl 平均フレーム取得時間: 16.611 ms
+[09/10 16:25:19] [INFO] [Plugin::svtAV1guiEx.auo2] svt-av1エンコード時間 : 0時間 2分18.6秒
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
