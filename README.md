@@ -1,12 +1,12 @@
-SVT-AV1のビルド版の配布です。
+SVT-AV1のビルド版の配布です。/This is a release of the SVT-AV1 build.
 
-ソースコードは改変していません。
+ソースコードは改変していません。/The source code has not been modified.
 
-Zen3に強く最適化をかけています。
+Zen3に強く最適化をかけています。/It is heavily optimized for Zen3.
 
-他のCPUでは動作確認をしていません。
+他のCPUでは動作確認をしていません。/Compatibility with other CPUs has not been verified.
 
-Zen5を使用してもAVX512は動作しません。
+Zen5を使用してもAVX512は動作しません。/AVX512 will not work even on Zen5.
 
 
 ------------------------
