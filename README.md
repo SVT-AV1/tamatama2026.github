@@ -17,5 +17,6 @@ https://gitlab.com/AOMediaCodec/SVT-AV1/-/tree/master
 I'm sorry. I'll try to include English as much as possible, but the text will be mainly in Japanese.
 
 
+If you are able to support us, please do. paypal
 
-
+https://paypal.me/TAMATAMA2026
