@@ -12,7 +12,7 @@ Zen5を使用してもAVX512は動作しません。/AVX512 will not work even o
 
 ソースコード入手先/Where to Get the Source Code
 
-https://gitlab.com/AOMediaCodec/SVT-AV1/-/tree/master
+https://github.com/AOMediaCodec/SVT-AV1
 
 I'm sorry. I'll try to include English as much as possible, but the text will be mainly in Japanese.
 
